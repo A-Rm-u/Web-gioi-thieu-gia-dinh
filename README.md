@@ -36,12 +36,11 @@ kê bên d&#432;&#7899;i:</i></font></font></p>
 <p>
 <p>
 <style>
-    body body {
-    background-image: url('background-2-9-1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* giữ ảnh cố định khi cuộn trang */
-    background-size: cover; /* tự động co giãn ảnh để vừa với kích thước trình duyệt */
-}
+    body <style>
+    body {
+        background-image: url("https://cdn-media.sforum.vn/storage/app/media/ctv_seo10/background-2-9-1.jpg");
+      }
+    </style>
     </style></p>
 </body>
 
