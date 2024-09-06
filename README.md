@@ -10,7 +10,6 @@
       background-image: url('images/background2-9.jpg');
       background-size: cover;
       background-repeat: no-repeat;
-      height: 100vh;
     }
   </style>
 </head>
