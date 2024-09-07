@@ -1,0 +1,22 @@
+
+.Tieu_de {
+    font-weight: bold;
+    color: blue;
+    font-family: Arial;
+    font-size: 18pt;
+}
+
+
+.Noi_dung {
+    font-style: italic;
+    color: purple; /* Màu tím có thể được biểu diễn bằng mã hex hoặc tên khác */
+    font-family: Arial;
+    font-size: 14pt;
+}
+
+
+.Sieu_lien_ket {
+    font-style: italic;
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: green;
+}
