@@ -9,31 +9,55 @@
             background-size: cover;
             background-repeat: no-repeat;
             height: 100vh;
+            font-family: Arial;
         }
 
         h1 {
+            font-size: 24px;
+            font-style: italic;
+            text-decoration: underline;
+            font-weight: bold;
+            color: #C0C0C0;
             text-align: center;
+        }
+
+        p {
+            font-style: italic;
+            font-size: 16px;
+            color: #00FF00;
+            padding-right: 20px; /* Khoảng cách giữa hình ảnh và văn bản */
+        }
+
+        img {
+            float: right;
+            margin-left: 20px;
+            max-width: 35%;
+            height: auto;
+            margin: 0px 0 0px 0px; /* Giá trị lần lượt lần lượt là top right bottom left */
+        }
+
+        .center {
+            text-align: center;
+            margin-top: 20px;
         }
     </style>
 </head>
 
 <body>
 
-    <h1 style="font-family: Arial; font-size: 24px; font-style: italic; text-decoration: underline; font-weight: bold; color: #C0C0C0; text-align: center;">Thông tin cơ bản</h1>
+    <h1>Thông tin cơ bản</h1>
 
-    <p style="font-style: italic; font-size: 16px; color: #00FF00;">- Họ và tên: Nguyễn Mạnh Biển
-        <img src="bo.jpg" width="533" height="309" style="float: right;">
-    </p>
-    <p style="font-style: italic; font-size: 16px; color: #00FF00;">- Năm sinh: 1975</p>
-    <p style="font-style: italic; font-size: 16px; color: #00FF00;">- Số điện thoại: 0988140xxx</p>
-    <p style="font-style: italic; font-size: 16px; color: #00FF00;">- Nghề nghiệp: tự do</p>
-    <p style="font-style: italic; font-size: 16px; color: #00FF00;">- Quê quán: xã Văn Bình, huyện Thường Tín, thành phố Hà Nội</p>
-    <p style="font-style: italic; font-size: 16px; color: #00FF00;">- Nơi cư trú: xã Văn Bình, huyện Thường Tín, thành phố Hà Nội</p>
-    <p style="font-style: italic; font-size: 16px; color: #00FF00;">- Tính cách: Là một người dễ cảm và mạnh mẽ, nhưng tính quyết đoán chưa cao, tính kiên nhẫn và chịu khó cực tốt</p>
-    <p style="font-style: italic; font-size: 16px; color: #00FF00;">- Sở trường: gần như sửa chữa được tất cả đèn nước bị hỏng hóc trong nhà</p>
-    <p style="font-style: italic; font-size: 16px; color: #00FF00;">- Sở đoản: nếu ăn không bằng mẹ</p>
+    <p>- Họ và tên: Nguyễn Mạnh Biển</p>
+    <p>- Năm sinh: 1975</p>
+    <p>- Số điện thoại: 0988140xxx</p>
+    <p>- Nghề nghiệp: tự do</p>
+    <p>- Quê quán: xã Văn Bình, huyện Thường Tín, thành phố Hà Nội</p>
+    <p>- Nơi cư trú: xã Văn Bình, huyện Thường Tín, thành phố Hà Nội</p>
+    <p>- Tính cách: Là một người dễ cảm và mạnh mẽ, nhưng tính quyết đoán chưa cao, tính kiên nhẫn và chịu khó cực tốt</p>
+    <p>- Sở trường: gần như sửa chữa được tất cả đèn nước bị hỏng hóc trong nhà</p>
+    <p>- Sở đoản: nếu ăn không bằng mẹ</p>
 
-    <div style="text-align: center; margin-top: 20px;">
+    <div class="center">
         <img src="images/bo.jpg" alt="Hình ảnh minh họa">
     </div>
 
